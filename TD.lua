@@ -858,7 +858,7 @@ function Doing(data, Ads_id)
                 assert(
                     tdbot_function(
                         {
-                            _ = "forwardMessages",
+                            _ = "sendMessage",
                             chat_id = "" .. v,
                             from_chat_id = tonumber(msg.chat_id),
                             message_ids = {[0] = tonumber(msg.id)},
